@@ -6,9 +6,7 @@ public class Taller02 {
     public static Scanner t=new Scanner(System.in);
     public static int dias, horas=24;
     public static int[][] datos =new int[dias][horas];
-    public static void main(String[] args) {
-        menu();
-    }
+
     public static void menu(){
         dias =t.nextInt();
         int opcion=0;
